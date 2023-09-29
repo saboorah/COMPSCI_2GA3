@@ -5,7 +5,9 @@
 int main (void) {
 
 
-        int arr[8]; //at least 8 bytes of memory
+        char* arrPtr = (char*)malloc(8); //at least 8 bytes of memory
+
+
 
 
 

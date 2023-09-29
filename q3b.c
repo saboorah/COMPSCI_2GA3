@@ -5,9 +5,9 @@
 int main (void) {
 
 
-        int arr[8]; //at least 8 bytes of memory
+        char arr[8]; //at least 8 bytes of memory
 
-	int* intPtr = &arr[0]; //arr pointer as int pointer
+	int* intPtr = arr; //arr pointer as int pointer
 
 	*intPtr = 0x04030201; //store hex val
 
@@ -17,7 +17,7 @@ int main (void) {
 
 	for ( int i = 0; i < 8; i++) {
 
-		printf("%d, ", intPtr[i]);
+		printf("%d, ", arr[i]);
 
 
 	}

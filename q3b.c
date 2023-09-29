@@ -34,9 +34,9 @@ int main (void) {
 
 /* ----------------------OUTPUT--------------------
 
-67305985, 0, 529267711, 0, -530476040, 32767, 100, 0,
+1, 2, 3, 4, 0, 0, 0, 0,
 
-this is stored in big edian order as it starts with the most significant digits
+this is stored in little edian order as it starts with the least significant digits
 
 */
 
